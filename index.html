@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<p lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+
+  <div class="game-intro">
+    <h1>El Vaquero Triste</h1>
+    <img src="./images/vaquero-triste.png" style="height: 100px; width: 100px" alt="" class="logo-img" />
+    <br />
+    <div>
+      <h3>OBJECTO:</h3>
+      <p>Ohhh noo! El vaquero esta muy triste. No puede dormir sin palomitas, vino, o mota! Puedes ayudarle???</p>
+      <p>Eres el perrito <img src="./images/P1-solo.png" style="height: 15px; width: 15px" alt="" />. Tienes 37 segundos para poner los regalos en su bowl... pero cuida las distraciones!</p>
+      
+      <h3>PON ESTOS REGALOS EN SU BOWL <img src="./images/bowl-empty.png" style="height: 15px; width: 15px" alt="" />:</h3>
+      <p><img src="./images/palomita.png" style="height: 15px; width: 15px" alt="" /> = Más <strong>3 Puntos</strong> cada Palomita</p>
+      <p><img src="./images/wine.png" style="height: 15px; width: 15px" alt="" /> = Más <strong>4 Puntos</strong> cada Vino</p>
+      <p><img src="./images/mota.png" style="height: 15px; width: 15px" alt="" /> = Más <strong>5 Puntos</strong> cada Mota</p>
+      <h3>CUIDADO CON ESTAS DISTRACCIONES:</h3>
+      <p><img src="./images/tennisball.png" style="height: 20px; width: 20px" alt="" />, <img src="./images/dogfood.png" style="height: 20px; width: 20px" alt="" />, <img src="./images/dogbone.png" style="height: 20px; width: 20px" alt="" /> = Penalización de 5 Segundos</p>
+      
+    </div>
+    <button id="start-button" value = "Refresh" onclick="history.go(0)">New Game</button>
+    <!-- <button id="start-button">Player 2</button> -->
+    <div>
+      <!-- <span id="player-1-score">Player 1 High: XX</span> -->
+      <!-- <span id="player-2-score">Player 2 High: XX</span> -->
+    </div>
+    <!-- <p>Clear scores</p> -->
+  </div>
+
+  <div id="game-board">
+    <!-- <div>TIME // SCORE</div> -->
+    <canvas id="canvas" width="611px" height="611px"></canvas>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+</body>

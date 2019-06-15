@@ -1,0 +1,62 @@
+body {
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: black;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+canvas {
+  background: black; 
+  margin: 20px;
+}
+
+#start-button {
+  margin: 20px 50px 0px 50px;
+}
+
+.game-intro {
+  float: left;
+  padding: 0% 2%;
+}
+
+.game-intro p {
+  text-align: left;
+  margin: 6px;
+}
+
+.game-intro h3 {
+  text-align: left;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.logo-img {
+  width: 350px;
+}
+
+.arrows-img {
+  width: 150px;
+}
+
+body button {
+  font-family: monospace;
+  font-size: 20px;
+  background-color: tan;
+  color: #fff;
+  padding: 10px 20px;
+  border: 0;
+  box-shadow: 0;
+  border-radius: 5px;
+  margin-bottom: 0px;
+  /* float: left; */
+}
+
+#game-board {
+  padding: 0px 0px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+}
